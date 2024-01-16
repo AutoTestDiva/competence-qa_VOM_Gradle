@@ -1,0 +1,7 @@
+1404 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\AIT TR Student\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+2375 [main] INFO  c.c.c.restAssuredTests.TestBaseRA -- Start test registerUserWithExistEmailTest with parameters []
+4870 [main] INFO  c.c.c.restAssuredTests.TestBaseRA -- PASSED: registerUserWithExistEmailTest
+4871 [main] INFO  c.c.c.restAssuredTests.TestBaseRA -- Stop test
+4871 [main] INFO  c.c.c.restAssuredTests.TestBaseRA -- ==============================

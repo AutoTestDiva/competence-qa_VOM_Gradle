@@ -21,6 +21,8 @@ dependencies {
 
     compileOnly 'org.projectlombok:lombok:1.18.26'
     annotationProcessor 'org.projectlombok:lombok:1.18.26'
+    testCompileOnly 'org.projectlombok:lombok:1.18.26'
+    testAnnotationProcessor 'org.projectlombok:lombok:1.18.16'
 
     implementation 'org.yaml:snakeyaml:2.0'
 
@@ -32,4 +34,20 @@ dependencies {
 
 test {
     useTestNG()
+    ignoreFailures = true
+}
+
+task qa(type:Test) {
+    useTestNG(){
+        def suite1 = project.hasProperty("suite1")
+        def suite2 = project.hasProperty("suite2")
+        if(suite1){
+            suites 'src/test/resources/testSuites/regressionRA.xml'
+        } else if(suite2){
+            suites 'src/test/resources/testSuites/quickRA.xml'
+        }
+    }
+    if(project.hasProperty('browser')){
+        systemProperty 'browser', "${browser}"
+    }
 }

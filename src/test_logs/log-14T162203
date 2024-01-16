@@ -1,0 +1,7 @@
+1718 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\AIT TR Student\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+2832 [main] INFO  c.c.c.restAssuredTests.TestBaseRA -- Start test loginSuccessTest with parameters []
+5861 [main] INFO  c.c.c.restAssuredTests.TestBaseRA -- FAILED: loginSuccessTest
+5862 [main] INFO  c.c.c.restAssuredTests.TestBaseRA -- Stop test
+5862 [main] INFO  c.c.c.restAssuredTests.TestBaseRA -- ==============================

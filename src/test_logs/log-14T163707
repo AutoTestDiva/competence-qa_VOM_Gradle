@@ -1,0 +1,7 @@
+1438 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\AIT TR Student\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+2477 [main] INFO  c.c.c.restAssuredTests.TestBaseRA -- Start test loginAsUserPositiveTest with parameters []
+5016 [main] INFO  c.c.c.restAssuredTests.TestBaseRA -- PASSED: loginAsUserPositiveTest
+5017 [main] INFO  c.c.c.restAssuredTests.TestBaseRA -- Stop test
+5017 [main] INFO  c.c.c.restAssuredTests.TestBaseRA -- ==============================

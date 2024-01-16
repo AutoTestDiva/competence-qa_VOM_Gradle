@@ -1,6 +1,7 @@
 package com.competa.competence.restAssuredTests;
 
 import com.competa.competence.DataBase;
+import com.competa.competence.fwRA.UserHelperRA;
 import io.restassured.RestAssured;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -15,12 +16,13 @@ public class TestBaseRA {
 
     final static Logger logger = LoggerFactory.getLogger(TestBaseRA.class);
     protected static DataBase db;
-  //  protected static UserHelperRA user = new UserHelperRA();
+    protected static UserHelperRA user = new UserHelperRA();
    // protected static LessonHelperRA lesson = new LessonHelperRA();
 
     @BeforeMethod
     public void precondition(Method method, Object[] parameters){
         RestAssured.baseURI = "http://localhost:5173";
+       // RestAssured.basePath = "api";
         logger.info("Start test " + method.getName() + " with parameters " + Arrays.asList(parameters));
     }
 

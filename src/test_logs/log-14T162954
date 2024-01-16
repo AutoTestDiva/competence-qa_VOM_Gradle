@@ -1,0 +1,7 @@
+1458 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\AIT TR Student\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+2459 [main] INFO  c.c.c.restAssuredTests.TestBaseRA -- Start test loginAsAdmin with parameters []
+4680 [main] INFO  c.c.c.restAssuredTests.TestBaseRA -- FAILED: loginAsAdmin
+4681 [main] INFO  c.c.c.restAssuredTests.TestBaseRA -- Stop test
+4682 [main] INFO  c.c.c.restAssuredTests.TestBaseRA -- ==============================

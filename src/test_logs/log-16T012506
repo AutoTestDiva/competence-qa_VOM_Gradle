@@ -1,0 +1,15 @@
+1460 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\AIT TR Student\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+2448 [main] INFO  c.c.c.restAssuredTests.TestBaseRA -- Start test loginAsUserPositiveTest with parameters []
+5356 [main] INFO  c.c.c.restAssuredTests.TestBaseRA -- PASSED: loginAsUserPositiveTest
+5356 [main] INFO  c.c.c.restAssuredTests.TestBaseRA -- Stop test
+5357 [main] INFO  c.c.c.restAssuredTests.TestBaseRA -- ==============================
+5362 [main] INFO  c.c.c.restAssuredTests.TestBaseRA -- Start test loginAsUserWithIncorrectPasswordTest with parameters []
+5722 [main] INFO  c.c.c.restAssuredTests.TestBaseRA -- PASSED: loginAsUserWithIncorrectPasswordTest
+5723 [main] INFO  c.c.c.restAssuredTests.TestBaseRA -- Stop test
+5723 [main] INFO  c.c.c.restAssuredTests.TestBaseRA -- ==============================
+5726 [main] INFO  c.c.c.restAssuredTests.TestBaseRA -- Start test logoutAsUserPositiveTest with parameters []
+5944 [main] INFO  c.c.c.restAssuredTests.TestBaseRA -- PASSED: logoutAsUserPositiveTest
+5944 [main] INFO  c.c.c.restAssuredTests.TestBaseRA -- Stop test
+5944 [main] INFO  c.c.c.restAssuredTests.TestBaseRA -- ==============================
